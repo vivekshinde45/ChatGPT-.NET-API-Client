@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 if (args.Length > 0)
 {
     var postAPIurl = "https://api.openai.com/v1/completions";
-    var openaiAPIKey = "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";
+    var openaiAPIKey = "YOUR_API_KEY";
     HttpClient client = new HttpClient();
 
     client.DefaultRequestHeaders.Add("authorization", $"Bearer {openaiAPIKey}");
